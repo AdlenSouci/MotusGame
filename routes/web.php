@@ -4,12 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 
 use App\Http\Controllers\WelcomeController;
-use App\Http\Controllers\ShopController;
-use App\Http\Controllers\MailController;
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\BasketController;
-use App\Http\Controllers\ArticleController;
+
 
 use App\Http\Controllers\MotusController;
 
