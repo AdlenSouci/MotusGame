@@ -35,6 +35,5 @@ Pour utiliser le site, voir le resultat il faut demarer xampp Apache et mysql
 Ici, vous pouvez décrire ce que les utilisateurs peuvent faire sur la page Shop, quels produits sont disponibles, comment ils peuvent filtrer.
 
 ### Page login/register
-
 Connexion deconnexion/creaction du compte suppression du compte 
 - Changement du mot de passe
