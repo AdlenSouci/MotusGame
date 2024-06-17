@@ -1,18 +1,4 @@
-.carousel {
-    margin: auto;
-    /* Centrer horizontalement */
-    max-width: 500px;
-    /* Largeur maximale du carousel */
-}
 
-.carousel-item img {
-    max-height: 400px;
-    /* Hauteur maximale des images du carousel */
-    object-fit: cover;
-    /* Assurez-vous que l'image remplit l'espace sans distorsion */
-    width: 100%;
-    /* Largeur maximale des images */
-}
 
 .card-3d {
     transition: transform 0.5s;
@@ -100,7 +86,7 @@ footer .nav-link {
     height: 30px;
 }
 
-.custom-select-2 , .form-control-2  {
+.custom-select-2  {
     width: 50px;
     height: 30px;
 }

@@ -8,7 +8,9 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/css/accueil.css',                
                 'resources/css/nav.css',
+                'resources/css/styles.css',
                 'resources/js/app.js',
+                
             ],
             refresh: true,
         }),

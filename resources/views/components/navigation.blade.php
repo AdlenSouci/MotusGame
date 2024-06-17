@@ -7,6 +7,7 @@
                 <div>
                     <a href="{{ route('index') }}">
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
+
                     </a>
                 </div>
 
@@ -15,18 +16,7 @@
                     <x-nav-link :href="route('index')" :active="request()->routeIs('index')">
                         {{ __('Accueil') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
-                        {{ __('À propos') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('shop')" :active="request()->routeIs('shop')">
-                        {{ __('Boutique') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('basket')" :active="request()->routeIs('basket')">
-                        {{ __('Panier') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
-                        {{ __('Contact') }}
-                    </x-nav-link>
+                   
 
                     <!-- Hide these links if the user is authenticated -->
                     @guest
@@ -96,18 +86,7 @@
             <x-responsive-nav-link :href="route('index')" :active="request()->routeIs('dashboard')">
                 {{ __('Accueil') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
-                {{ __('À propos') }}
-            </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('shop')" :active="request()->routeIs('shop')">
-                {{ __('Boutique') }}
-            </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('basket')" :active="request()->routeIs('basket')">
-                {{ __('Panier') }}
-            </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('contact')" :active="request()->routeIs('contact')">
-                {{ __('Contact') }}
-            </x-responsive-nav-link>
+            
 
             <!-- Hide these links if the user is authenticated -->
             @guest

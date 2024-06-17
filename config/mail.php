@@ -14,6 +14,7 @@ return [
     */
 
     'default' => env('MAIL_MAILER', 'smtp'),
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -55,6 +56,10 @@ return [
             // 'client' => [
             //     'timeout' => 5,
             // ],
+        ],
+
+        'mailtrap' => [
+            'transport' => 'mailtrap',
         ],
 
         'postmark' => [
