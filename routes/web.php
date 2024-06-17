@@ -20,6 +20,7 @@ use App\Http\Controllers\MotusController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+//1212
 
 Route::get('/', [MotusController::class, 'showIndex'])->name('index');
 
