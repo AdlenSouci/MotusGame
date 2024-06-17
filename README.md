@@ -1,6 +1,8 @@
-<<<<<<< HEAD
-=======
+
 # projet motus
+
+![image](https://github.com/AdlenSouci/MotusGame/assets/77266719/026ed4de-cce5-4348-9c47-1ee3d72baf35)
+
 
 ## Table des matières
 1. Introduction
